@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://www.freecodecamp.org/news/content/images/2022/09/jonatan-pie-3l3RwQdHRHg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    width: 400px;
+    min-height: 200px;
+    background:linear-gradient(45deg, rgba(9, 245, 245, 0.3) 50%, rgba(26, 26, 238, 0.3));
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 5px 5px 20px aquamarine,
+                -5px -5px 20px rgb(127, 172, 255);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;           
+}
+
+
+.main-container:hover{
+    box-shadow: 2px 2px 40px aquamarine,
+                -2px -2px 40px rgb(127, 251, 255);
+}
+hr{
+    width: 100%;
+    border: 3px solid aqua;
+    border-radius: 50%;
+    box-shadow: 5px 5px 20px aquamarine,
+                -5px -5px 20px rgb(127, 255, 244);
+}
+.main-container>div{
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#stop, #start{
+    width: 45%;
+    margin: 0px;
+    
+    height: 2rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    color: rgba(8, 241, 222, 0.9);
+    font-size: 1.2rem;
+    background-color: rgba(12, 3, 92, 0.4);
+    box-shadow: 5px 5px 10px aquamarine,
+                -5px -5px 10px rgb(127, 255, 244);
+}
+.main-container h1{
+    font-size: 3rem;
+    color: rgba(8, 241, 222, 0.9);
+    font-family:fantasy;
+}
+
+#start:hover, #stop:hover{
+    color: aqua;
+    box-shadow: 5px 5px 20px aquamarine,
+                -5px -5px 20px rgb(127, 255, 244);
+}
